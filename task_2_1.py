@@ -7,5 +7,5 @@ number = input('Enter a number: ')
 sum_number = 0
 for i in number:
     if i != ".":
-        sum += int(i)
-print(f'{number} -> {sum}')
+        sum_number += int(i)
+print(f'{number} -> {sum_number}')
